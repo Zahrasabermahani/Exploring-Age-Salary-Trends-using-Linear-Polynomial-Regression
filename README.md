@@ -1,16 +1,13 @@
 # Exploring-Age-Salary-Trends-using-Linear-Polynomial-Regression
-Hands-on ML project to predict salary using age with data visualization and model evaluation.
 
-
-I explored a dataset mapping individual ages to their salaries, using Python and scikit-learn.
-Steps included data visualization, preprocessing, model fitting, and evaluation:
-
-__Trained both Linear Regression and 3rd-degree Polynomial Regression
-
-__Evaluated models using R² score on validation data
-
-__Found that a nonlinear model better captured the age-salary relationship, which tends to rise and fall due to retirement effects
-
-This hands-on project helped me reinforce key ML workflow concepts like standardization, splitting datasets, and model evaluation.
-
-
+-  **Goal**: Predict salary based on age using both Linear and Polynomial Regression models.  
+-  **Tools Used**: Python, NumPy, Matplotlib, Scikit-learn  
+-  **Techniques**:
+  - Data visualization (scatter plots)
+  - Data standardization
+  - Train/validation/test split
+  - Linear Regression modeling
+  - Polynomial Regression (degree = 3)
+  - R² score evaluation and interpretation
+-  **Outcome**: Polynomial regression captured the nonlinear trend more effectively than linear models, showing that salary increases with age to a point before declining, likely due to retirement effects.
+-  **Skills Practiced**: Feature scaling, model fitting, error analysis, data splitting, model comparison
